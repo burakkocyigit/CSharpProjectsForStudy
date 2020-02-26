@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SocketAsync;
+
+namespace AsyncSocketClient
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SocketClient client = new SocketClient();
+            Console.WriteLine("*** Welcome to Socket Client Starter Example by Burak Kocyigit");
+            Console.WriteLine("Please Type a Valid Server IP Address and Press Enter: ");
+            string strIPAddress = Console.ReadLine();
+            Console.WriteLine("Please Supply a Valid Port Number 0 - 65535 and Press Enter: ");
+            string strPortInput = Console.ReadLine();
+
+            if (!client.SetServerIPAddress(strIPAddress) || !client.SetPortNumber(strPortInput))
+            {
+                Console.WriteLine(string.Format("Wrong IP Address or port number supplied - {0} - {1} - Press a key to exit", strIPAddress, strPortInput));
+                Console.ReadKey();
+                return;
+            }
+            client.ConnectToServer();
+
+            string strInputUser = string.Empty;
+            do
+            {
+                strInputUser = Console.ReadLine();
+                if (strInputUser.Trim() != "<EXIT>")
+                {
+                    client.SendToServer(strInputUser);
+                }
+                else if (strInputUser.Equals("<EXIT>"))
+                {
+                    client.CloseAndDisconnect();
+                }
+            } while (strInputUser != "<EXIT>");
+        }
+    }
+}

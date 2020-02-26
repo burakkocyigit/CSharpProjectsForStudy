@@ -1,0 +1,9 @@
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\bin\Debug\UdemyAsyncSocketClient.exe.config
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\bin\Debug\UdemyAsyncSocketClient.exe
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\bin\Debug\UdemyAsyncSocketClient.pdb
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\bin\Debug\LahoreSocketAsync.dll
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\bin\Debug\LahoreSocketAsync.pdb
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\obj\Debug\UdemyAsyncSocketClient.csprojAssemblyReference.cache
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\obj\Debug\UdemyAsyncSocketClient.csproj.CopyComplete
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\obj\Debug\UdemyAsyncSocketClient.exe
+D:\UdemyAsyncSocketServer\UdemyAsyncSocketClient\obj\Debug\UdemyAsyncSocketClient.pdb
