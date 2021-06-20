@@ -1,0 +1,6 @@
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\bin\Debug\NavigateMe.Core.dll
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\bin\Debug\NavigateMe.Core.pdb
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.csprojAssemblyReference.cache
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.dll
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.pdb

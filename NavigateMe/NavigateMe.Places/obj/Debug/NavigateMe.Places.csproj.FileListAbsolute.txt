@@ -1,0 +1,9 @@
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Places.dll
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Places.pdb
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Core.dll
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Core.pdb
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csprojAssemblyReference.cache
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.CopyComplete
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.dll
+C:\Users\burak\source\repos\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.pdb
