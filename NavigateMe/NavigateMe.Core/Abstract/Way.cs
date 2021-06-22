@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// bir class için "... is a ..." diyebiliyorsak abstract kullanabiliriz bu yüzden avm nin içerisindeki her hangi bi yeri bir yol olarak kabul ederek bi abstract oluşturdum
 namespace NavigateMe.Core.Abstract
 {
     public abstract class Way

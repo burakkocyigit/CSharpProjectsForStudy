@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NavigateMe.Places.Stores
 {
-    public class Bgr : Node
+    public class Bgr : Node// bgr mağazası ve diğer mağazaların hepsinin girişi avmnin içerisinde birer node dur aslında
     {
         public Bgr()
         {

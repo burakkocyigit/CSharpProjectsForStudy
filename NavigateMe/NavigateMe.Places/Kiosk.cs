@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace NavigateMe.Places
 {
-    public class Kiosk : Node
+    public class Kiosk : Node //kiosklarda birer noddur onlarında sol üst köşeleri referans alınır
     {
         public int Number { get; set; }
-        public Node Target { get; set; }
         public Kiosk(int number)
         {
             Number = number;
             WhereIsNode(Number);
         }
+        // kioskların property lerini assign eder
         public void WhereIsNode(int number)
         {
             Floor = 1;
@@ -40,6 +40,7 @@ namespace NavigateMe.Places
                 Row = 11;
             }
         }
+        //bu method kioskun bulunduğu noktadan hedefe olan uzaklığını x ve y koordinatı olarak hesaplar her iki kattaki koordinatları tuple tipi ile verir
         public Tuple<Point, Point> FindShortestPath(Node target)
         {
             Point firstPath;
@@ -75,7 +76,8 @@ namespace NavigateMe.Places
                 return new Tuple<Point, Point>(firstPath, secondPath);
             }
         }
-        public override string ToString()//comboboxta görünen adını düzenlemek için object sınıfındaki toString methodunu override ediyoruz
+        //comboboxta görünen adını düzenlemek için object sınıfındaki toString methodunu override ediyoruz
+        public override string ToString()
         {
             return this.GetType().Name + this.Number;
         }

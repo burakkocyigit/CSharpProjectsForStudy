@@ -24,6 +24,7 @@ namespace NavigateMe.UI.WinForm
         Button button = new Button();
         Button bFloor1 = new Button();
         Button bFloor2 = new Button();
+        //kendi toollarımızıda formun constructorunda initialize ettim aslında bunu partial class ta da yapabilirdim daha temiz olurdu fakat design file ının bozulmaması için burada yaptım.
         public Form1()
         {
             InitializeComponent();
@@ -85,17 +86,17 @@ namespace NavigateMe.UI.WinForm
             label.AutoSize = true;
             panel1.Controls.Add(label);
         }
-
+        //kat 2 yi göstermek için kullanılıyor
         private void BFloor2_Click(object sender, EventArgs e)
         {
             Draw(2);
         }
-
+        //kat biri göstermek için kullanılıyor
         private void BFloor1_Click(object sender, EventArgs e)
         {
             Draw(1);
         }
-
+        //bu method buttonun eventine bağlı bi şekilde ascii tablodan yararlanarak kurduğumuz algoritma ile gidilmesi gereken rotayı label a yazdırıyor
         private void Button_Click(object sender, EventArgs e)
         {
             label.Text = string.Empty;
@@ -122,6 +123,7 @@ namespace NavigateMe.UI.WinForm
             }
             ShowPath(targetPath, (Kiosk)comboBox.SelectedItem);
         }
+        //bu method ekranda ızgara üzerinde gidilmesi gereken yolu turkuaz renkle çiziyor
         public async void ShowPath(Tuple<Point, Point> tuple, Node node)
         {
             Draw(1);
@@ -173,7 +175,7 @@ namespace NavigateMe.UI.WinForm
                 }
             }
         }
-
+        //method her çalıştığında paneli temizleyip daha sonrasında istenen katı çiziyor
         public void Draw(int floor)
         {
             panel1.CreateGraphics().Clear(Color.White);
@@ -187,8 +189,8 @@ namespace NavigateMe.UI.WinForm
             for (int j = 0; j < 12; j++)
             {
                 for (int i = 0; i < 12; i++)
-                {
-                    Point Y1 = new Point(((panel1.Height - 100) / 11 * i + 70), (panel1.Height - 100) / 11 * j + 50);
+                {                    
+                    Point Y1 = new Point(((panel1.Height - 100) / 11 * i + 70), (panel1.Height - 100) / 11 * j + 50);//kontrollerin boyutlarıyla hizalama yapıldığı için uygulama her boyuta göre kendini ayarlabilmektedir
                     Point Y2 = new Point(((panel1.Height - 100) / 11 * i + 70), (panel1.Height - 100) / 11 * (11 - j) + 50);
                     Point X1 = new Point(((panel1.Height - 100) / 11 * j + 70), (panel1.Height - 100) / 11 * i + 50);
                     Point X2 = new Point(((panel1.Height - 100) / 11 * (11 - j) + 70), (panel1.Height - 100) / 11 * i + 50);
@@ -243,11 +245,9 @@ namespace NavigateMe.UI.WinForm
                 }
             }
         }
-
+        // formu küçültüp büyüttüğümüzde çizilen ve panele eklenen controllerin yerlerinin değiştirilmesini sağlıyor
         private async void Form1_Resize(object sender, EventArgs e)
         {
-            await Task.Delay(100);
-            Draw(1);
             if (panel1.Width > 1000)
             {
                 comboBox.Location = new Point(panel1.Width * 2 / 3 - 25, 100);
@@ -266,6 +266,8 @@ namespace NavigateMe.UI.WinForm
                 bFloor2.Location = new Point(panel1.Width - 300, 100);
                 label.Location = new Point(panel1.Width - 200, 350);
             }
+            await Task.Delay(100);
+            Draw(1);
         }
     }
 }

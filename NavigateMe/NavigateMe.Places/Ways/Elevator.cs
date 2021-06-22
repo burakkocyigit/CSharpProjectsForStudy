@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NavigateMe.Places.Ways
 {
-    public class Elevator : Way
+    public class Elevator : Way//merdiven ve asansörün tek bir katta tek bir nodu yoktur yani sadece avm nin içerisinde yoldur
     {
         public Elevator()
         {
