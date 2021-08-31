@@ -10,3 +10,9 @@ C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Core\obj\Debug\Navigate
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.csproj.CoreCompileInputs.cache
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.dll
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.pdb
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\bin\Debug\NavigateMe.Core.dll
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\bin\Debug\NavigateMe.Core.pdb
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.csproj.AssemblyReference.cache
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.csproj.CoreCompileInputs.cache
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.dll
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Core\obj\Debug\NavigateMe.Core.pdb

@@ -16,3 +16,12 @@ C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Places\obj\Debug\Naviga
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.CopyComplete
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.dll
 C:\Users\burak\OneDrive\Masaüstü\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.pdb
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Places.dll
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Places.pdb
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Core.dll
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\bin\Debug\NavigateMe.Core.pdb
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.AssemblyReference.cache
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.CoreCompileInputs.cache
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.csproj.CopyComplete
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.dll
+C:\Users\burak\Source\Repos\burakkocyigit\CSharpProjectsForStudy\NavigateMe\NavigateMe.Places\obj\Debug\NavigateMe.Places.pdb

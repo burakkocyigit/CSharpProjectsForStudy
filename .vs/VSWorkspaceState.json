@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\NavigateMe"
+    "\\NavigateMe",
+    "\\NavigateMe\\NavigateMe.Core",
+    "\\NavigateMe\\NavigateMe.Core\\Abstract"
   ],
-  "SelectedNode": "\\NavigateMe\\NavigateMe.sln",
+  "SelectedNode": "\\NavigateMe\\NavigateMe.Core\\Abstract\\Way.cs",
   "PreviewInSolutionExplorer": false
 }
